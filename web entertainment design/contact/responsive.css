@@ -1,0 +1,91 @@
+@media (max-width: 1117px){
+  .about-wrapper{
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 900px){
+
+  /* ヘッダー
+------------------------------- */
+header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container{
+  margin-left: 2%;
+}
+
+  .header-left{
+    flex-flow: column;
+  }
+
+  header img{
+    width: 80px;
+    padding-bottom: 10px;
+  }
+
+  header ul{
+    display: flex;
+    margin-left: 0;
+  }
+
+  .contact-btn{
+    display: none;
+  }
+
+/* contactページ
+------------------------------- */
+.contact-wrapper {
+  margin-bottom: 80px;
+}
+
+.contact-wrapper .container{
+  width: 95%;
+}
+
+.contact-wrapper .title{
+  margin-bottom: 60px;
+}
+
+.contact-wrapper .title h2{
+  padding: 20px 0;
+  font-size: 32px;
+}
+
+
+/* web */
+.web-wrapper{
+  background-color: #fff;
+}
+
+.web-wrapper .container{
+  width: 95%;
+  align-items: flex-start;
+  flex-flow: column;
+}
+
+.wed-left img{
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+/* footer */
+footer{
+  background-color: #fff;
+  padding-bottom: 23px;
+}
+
+footer .container{
+  width: 95%;
+}
+
+footer p{
+  font-size: 10px;
+}
+}

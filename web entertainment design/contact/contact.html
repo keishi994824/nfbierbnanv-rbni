@@ -1,0 +1,114 @@
+<html lang="ja">  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Web Entertainment Design</title>
+    <link rel="icon" href="img/favicon.ico">
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+  </head>
+
+  <body>
+
+    <!--ヘッダー部分-->
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="../index.html"><img src="img/logo.svg" alt=""></a>
+          <ul>
+            <li><a href="../news/news.html">NEWS</a></li>
+            <li><a href="../index.html#link_1">ABOUT</a></li>
+            <li><a href="../index.html#link_2">BUSINESS</a></li>
+            <li><a href="../index.html#link_3">COMPANY</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="contact-btn">
+          <a href="../contact/contact.html">お問い合わせ</a>
+        </div>
+      </div>
+    </header>
+
+    <!--メイン部分-->
+    <main>
+
+      <!-- news -->
+      <div class="contact-wrapper">
+        <div class="container">
+          <div class="title">
+            <h2>Contact</h2>
+            <div class="title-text">
+              <p>お仕事のご依頼やご相談は下記のフォームからお問い合わせください。</p>
+            </div>
+          </div>
+          <!-- お問い合せフォーム -->
+          <form name="myForm" class="validationForm" novalidate>
+
+            <!-- name -->
+            <div class="input">
+            <label for="rendou">Name<span>*</span></label>
+              <!--  検証用クラスや属性をコントロール要素に指定 -->
+              <input class="required pattern" data-error-required="必須項目に入力してください。" data-pattern="^.{2,20}$" data-error-pattern="2文字以上20文字以内で入力ください" type="text" name="name" id="name">
+            </div>
+
+            <!-- メールアドレス -->
+            <div class="input">
+              <label for="mail">E-mail<span>*</span></label>
+              <input class="required pattern" data-pattern="email" data-error-required="必須項目に入力してください。" data-error-pattern="入力されたメールアドレスに間違いがあります。" type="email" id="email1" name="email1" size="30">
+            </div>
+
+            <!-- メッセージ -->
+            <div class="message">
+              <label for="comment">Message<span>*</span></label>
+              <textarea class="required maxlength showCount" name="inquiry" id="inquiry" rows="10" cols="30"></textarea>
+
+            </div>
+
+            <!-- 送信ボタン -->
+            <div class="send">
+              <input type="submit" value="送信">
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+
+    <!-- web -->
+    <div class="web-wrapper">
+      <div class="container">
+        <div class="wed-left">
+          <img src="img/logo.svg" alt="">
+        </div>
+        <div class="wed-right">
+          <ul>
+            <li>Web Entertainment Design Inc.</li>
+            <li>West Building 3F</li>
+            <li>9-99 Sakuragaokacho Shibuya-ku</li>
+            <li>Tokyo, Japan 150-0031</li>
+            <li>T/99-9999-9999</li>
+          </ul>
+      </div>
+    </div>
+
+    </main>
+
+    <!--フッター-->
+    <footer>
+      <div class="container">
+        <p>© Web Entertainment Design Inc.</p>
+      </div>
+    </footer>
+
+    
+
+    <!--  検証用の JavaScript（basicFormValidation.js）の読み込み -->
+<script src="basicFormValidation.js"></script>
+
+  </body>
+</html>

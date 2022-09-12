@@ -1,0 +1,199 @@
+/* 
+theme name: web entertainment design
+author:  コセ
+version: 1.0
+*/
+
+@charset "utf-8";
+
+/* 共通 */
+html {
+  font-size: 100%;
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-color: #F0F0F0;
+}
+
+body{
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #161616;
+}
+
+li{
+  list-style: none;
+}
+
+.title h2{
+  font-size: 36px;
+  letter-spacing: 0.3em;
+  font-weight: 100;
+}
+
+.title p{
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.title span{
+  border-bottom: 1px solid #000;
+  width: 40px;
+  display: block;
+}
+
+/* ヘッダー
+------------------------------- */
+header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container{
+  margin-left: 7%;
+}
+
+.header-left{
+  display: flex;
+}
+
+header ul{
+  display: flex;
+  margin-left: 60px;
+}
+
+header li{
+  margin-right: 30px;
+}
+
+header li a{
+  font-size: 14px;
+}
+
+header img{
+  width: 100px;
+  line-height: 3;
+}
+
+.contact-btn{
+  background-color: #000;
+  border: #000 1px solid;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 12px;
+  width: 200px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.contact-btn a{
+  display: block;
+  color: #fff;
+}
+
+.contact-btn:hover{
+  background-color: #333333;
+  border: #333333 1px solid;
+}
+
+/* news
+------------------------------- */
+.news-wrapper {
+  margin-bottom: 120px;
+}
+
+.news-wrapper .container{
+  width: 70%;
+}
+
+.news-wrapper .title{
+  padding: 80px 0;
+}
+
+/*tabの形状*/
+.tab{
+	display: flex;
+  text-align: center;
+  border-bottom: #000 1px solid;
+}
+
+.tab li a{
+	display: block;
+  width: 240px;
+	padding:30px 0px;
+  font-size: 16px;
+}
+
+.tab .news{
+	border-bottom: #000 3px solid;
+}
+
+
+.list ul li{
+  padding: 55px 0;
+  border-bottom: #CCCCCC 1px solid;
+}
+
+.date-area{
+  display: flex;
+}
+
+.date-area {
+  margin-bottom: 16px;
+}
+
+.date-area span {
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin-left: 12px;
+  text-align: center;
+}
+
+/* web */
+.web-wrapper{
+  background-color: #fff;
+}
+
+.web-wrapper .container{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+}
+
+.wed-left img{
+  width: 100px;
+  height: 26px;
+}
+
+/* footer */
+footer{
+  background-color: #fff;
+  padding-bottom: 23px;
+}
+
+footer .container{
+  width: 75%;
+}
+
+footer p{
+  font-size: 10px;
+}
